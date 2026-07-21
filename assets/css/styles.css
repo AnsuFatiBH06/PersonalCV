@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-color: rgba(23, 23, 183, 1.0);
+    color: rgba(255,255,255, 1.0);
+}
+
+.infoDiv {
+    display: block;
+    background-color: rgba(7, 7, 116, 1.0);
+    width: 90%;
+    margin: 10px auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 6px;
+}
