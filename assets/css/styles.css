@@ -1,13 +1,15 @@
 body {
     text-align: center;
     /* background-color: rgba(23, 23, 183, 1.0); */
-    background-color: rgba(190,190,235,0.80);
+    /* background-color: rgba(190,190,235,0.80); */
+    background-color: rgba(217, 217, 240, 0.8);
     color: rgba(255,255,255, 1.0);
     font-family: "Source Code Pro";
 }
 
 h1 {
     font-size: 45px;
+    color: black;
     /* background-color: black;
     border-radius: 4px; */
 }
@@ -22,8 +24,8 @@ h1 {
     background-color: rgba(7, 7, 116, 1.0);
     width: 90%;
     margin: 10px auto;
-    padding: 10px 25px;
-    border-radius: 6px;
+    padding: 10px 30px;
+    border-radius: 8px;
 }
 
 .infoDiv:hover {
@@ -35,6 +37,10 @@ h1 {
     .infoHeader {
         color: rgb(247, 92, 92);
     }
+}
+
+.clickableHeader {
+    padding: 10px 0px;
 }
 
 .border {

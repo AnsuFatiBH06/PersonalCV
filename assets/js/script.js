@@ -1,7 +1,6 @@
 // Displaying and Hiding information based on user clicking
-document.querySelectorAll('.infoHeader').forEach(header => {
+document.querySelectorAll('.clickableHeader').forEach(header => {
     header.addEventListener('click', () => {
-        // div.querySelector('.showHideInfo').classList.toggle('show');
         const hiddenInfo = header.nextElementSibling;
         const toggleIcon = header.querySelector('.toggleIcon');
 
@@ -14,7 +13,3 @@ document.querySelectorAll('.infoHeader').forEach(header => {
         }
     });
 });
-
-// $('.infoDiv').on('click', function() {
-//     $(this).find('.showHideInfo').slideToggle(200);
-// });
