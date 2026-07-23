@@ -1,9 +1,9 @@
 // Displaying and Hiding information based on user clicking
-document.querySelectorAll('.infoDiv').forEach(div => {
-    div.addEventListener('click', () => {
+document.querySelectorAll('.infoHeader').forEach(header => {
+    header.addEventListener('click', () => {
         // div.querySelector('.showHideInfo').classList.toggle('show');
-        const hiddenInfo = div.querySelector('.showHideInfo');
-        const toggleIcon = div.querySelector('.toggleIcon');
+        const hiddenInfo = header.nextElementSibling;
+        const toggleIcon = header.querySelector('.toggleIcon');
 
         hiddenInfo.classList.toggle('show'); // displaying the information when user clicks
 

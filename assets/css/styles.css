@@ -3,10 +3,18 @@ body {
     /* background-color: rgba(23, 23, 183, 1.0); */
     background-color: rgba(190,190,235,0.80);
     color: rgba(255,255,255, 1.0);
+    font-family: "Source Code Pro";
 }
 
-h2 {
+h1 {
+    font-size: 45px;
+    /* background-color: black;
+    border-radius: 4px; */
+}
+
+.infoHeader {
     font-size: 28px;
+    font-family: "Inter";
 }
 
 .infoDiv {
@@ -24,21 +32,25 @@ h2 {
     /* transform: scale(1.03); */
     box-shadow: 0 0 20px rgba(0,0,0,0.25);
 
-    h2 {
+    .infoHeader {
         color: rgb(247, 92, 92);
     }
 }
 
 .border {
     margin: auto auto;
-    width: 95%;
-    border: 2px solid white;
+    /* width: 98%; */
+    border: 3px solid white;
     border-radius: 8px;
 }
 
 p {
     /* margin-left: 20px; */
     text-align: justify;
+}
+
+.eduInst, span {
+    font-weight: bold;
 }
 
 .eduInst {
@@ -51,7 +63,6 @@ p {
 span {
     /* margin-right: 20px; */
     float: right;
-    font-weight: bold;
 }
 
 .toggleIcon {
@@ -64,3 +75,20 @@ span {
 .showHideInfo.show {
     display: block;
 }
+
+footer {
+    align-items: center;
+    text-align: center;
+}
+
+/* .footerImg {
+    width: 10%;
+}
+
+.footerImg:hover {
+    background-color: rgba(7, 7, 116, 0.65);
+    /* transform: translateY(-4px); */
+    /* transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+} */
+
