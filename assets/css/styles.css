@@ -1,4 +1,16 @@
+header {
+    background-color: rgba(195, 195, 235, 0.8);
+    margin: auto auto;
+    padding: 7px 7px;
+    /* border-radius: 8px; */
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 20px;
+}
+
 body {
+    margin: 0;
+    padding: 0;
     text-align: center;
     /* background-color: rgba(23, 23, 183, 1.0); */
     /* background-color: rgba(190,190,235,0.80); */
@@ -7,11 +19,32 @@ body {
     font-family: "Source Code Pro";
 }
 
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     font-size: 45px;
     color: black;
     /* background-color: black;
     border-radius: 4px; */
+}
+
+.headerButton {
+    background-color: rgba(25, 25, 145, 0.85);
+    margin: auto auto;
+    padding: 8px 5px;
+    width: 40%;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.headerButton:hover {
+    background-color: rgba(25, 25, 145, 0.65);
+    /* transform: translateY(-4px); */
+    /* transform: scale(1.03); */
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+    color: rgb(247, 92, 92);
 }
 
 .infoHeader {
@@ -22,7 +55,7 @@ h1 {
 .infoDiv {
     display: block;
     background-color: rgba(7, 7, 116, 1.0);
-    width: 90%;
+    width: 95%;
     margin: 10px auto;
     padding: 10px 30px;
     border-radius: 8px;
@@ -106,13 +139,17 @@ footer {
 } */
 
 @media (max-width: 550px) {
+    header {
+        padding: 7px 7px;
+        font-size: 14px;
+    }
+
     .infoHeader {
-        font-size: 18px;
+        font-size: 20px;
         font-family: "Inter";
     }
 
     .infoDiv {
-        width: 85%;
         margin: 8px auto;
         padding: 8px 25px;
         border-radius: 6px;
@@ -133,11 +170,11 @@ footer {
     }
 
     .eduInst {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .certificate, .sklClub {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .sklClub span {
