@@ -1,4 +1,5 @@
 const body = document.body;
+const darkModeButton = document.querySelector('#themeSwitchButton');
 
 // Displaying and Hiding information based on user clicking
 document.querySelectorAll('.clickableHeader').forEach(header => {
@@ -16,19 +17,14 @@ document.querySelectorAll('.clickableHeader').forEach(header => {
     });
 });
 
-document.querySelector('#themeSwitchButton').forEach(themeButton => {
-    themeButton.addEventListener('click', () => {
-        // toggle dark mode class
-        const buttonText = themeButton.querySelector('');
+darkModeButton.addEventListener('click', () => {
+    body.classList.toggle('darkMode');
 
-        body.classList.toggle('darkMode');
-
-        if (body.classList.contains('darkMode')) {
-            buttonText.textContent = 'Toggle Light Mode';
-        } else {
-            buttonText.textContent = 'Toggle Dark Mode';
-        }
-    });
+    if (body.classList.contains('darkMode')) {
+        darkModeButton.textContent = 'Toggle Light Mode';
+    } else {
+        darkModeButton.textContent = 'Toggle Dark Mode';
+    }
 });
 
 // // Save preference
