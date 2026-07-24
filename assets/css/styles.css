@@ -59,16 +59,22 @@ p {
     font-weight: bold;
 }
 
-.eduInst {
+.eduInst, .certificate, .sklClub {
     font-size: 19px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: left;
+}
+
+.certificate, .sklClub {
+    font-size: 16px;
 }
 
 span {
     /* margin-right: 20px; */
     float: right;
+    text-align: right;
 }
 
 .toggleIcon {
@@ -122,9 +128,20 @@ footer {
         font-weight: bold;
     }
 
+    .eduInst, .certificate {
+        display: block;
+    }
+
     .eduInst {
         font-size: 14px;
-        display: block;
+    }
+
+    .certificate, .sklClub {
+        font-size: 11px;
+    }
+
+    .sklClub span {
+        text-align: right;
     }
 
     p span {
