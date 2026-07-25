@@ -1,5 +1,9 @@
 const body = document.body;
 const darkModeButton = document.querySelector('#themeSwitchButton');
+const expandCollapseButton = document.querySelector('#expandCollapseButton');
+const allHiddenInfoBoxes = document.querySelectorAll('.showHideInfo');
+const allToggleIcons = document.querySelectorAll('.toggleIcon');
+let boxIsExpanded = false;
 
 // Displaying and Hiding information based on user clicking
 document.querySelectorAll('.clickableHeader').forEach(header => {
@@ -17,14 +21,38 @@ document.querySelectorAll('.clickableHeader').forEach(header => {
     });
 });
 
+// Switching between light and dark mode
 darkModeButton.addEventListener('click', () => {
     body.classList.toggle('darkMode');
 
     if (body.classList.contains('darkMode')) {
-        darkModeButton.textContent = 'Toggle Light Mode';
+        darkModeButton.textContent = 'Light Mode';
     } else {
-        darkModeButton.textContent = 'Toggle Dark Mode';
+        darkModeButton.textContent = 'Dark Mode';
     }
+});
+
+// Expanding/Collapsing all boxes together + manipulating toggle icon
+expandCollapseButton.addEventListener('click', () => {
+    boxIsExpanded = !boxIsExpanded;
+
+    allHiddenInfoBoxes.forEach(hiddenInformation => {
+        if (boxIsExpanded) {
+            hiddenInformation.classList.add('show');
+            expandCollapseButton.textContent = 'Collapse All';
+        } else {
+            hiddenInformation.classList.remove('show');
+            expandCollapseButton.textContent = 'Expand All';
+        }
+    });
+
+    allToggleIcons.forEach(icon => {
+        if (boxIsExpanded) {
+            icon.textContent = '(-)';
+        } else {
+            icon.textContent = '(+)';
+        }
+    });
 });
 
 // // Save preference

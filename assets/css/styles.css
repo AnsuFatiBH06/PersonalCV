@@ -59,6 +59,32 @@ header {
     top: 0;
     z-index: 1000;
     /* Header remains there even with bottom scrolling */
+
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px; */
+}
+
+.headerButton {
+    background-color: var(--headerButtonColor);
+    margin: auto 3px;
+    padding: 8px 8px;
+    /* width: 40%; */
+    border-radius: 10px;
+    display: inline-block;
+
+    min-width: 180px;
+    /* white-space: nowrap; */
+}
+
+.headerButton:hover {
+    background-color: var(--headerButtonColor_HOVER);
+    /* transform: translateY(-4px); */
+    /* transform: scale(1.03); */
+    box-shadow: 0 0 20px var(--boxShadowColor_HOVER);
+    color: var(--textColor_HOVER);
 }
 
 body {
@@ -90,20 +116,7 @@ h1 {
     border-radius: 4px; */
 }
 
-.headerButton {
-    background-color: var(--headerButtonColor);
-    margin: auto auto;
-    padding: 8px 5px;
-    width: 40%;
-    border-radius: 15px;
-    display: inline-block;
-}
-
-.headerButton:hover {
-    background-color: var(--headerButtonColor_HOVER);
-    /* transform: translateY(-4px); */
-    /* transform: scale(1.03); */
-    box-shadow: 0 0 20px var(--boxShadowColor_HOVER);
+a {
     color: var(--textColor_HOVER);
 }
 
@@ -206,8 +219,11 @@ footer {
 
     .headerButton {
         /* padding: 8px 5px; */
-        width: 35%;
+        /* width: 35%; */
         /* display: inline-block; */
+        font-size: 12px;
+        padding: 5px 0px;
+        min-width: 140px;
     }
 
     h1 {
