@@ -1,6 +1,6 @@
 /* Light Mode Colors */
 :root {
-    --headerBgColor: rgba(225, 230, 245, 0.9);
+    --headerBgColor: rgba(225, 230, 245, 1.0);
     --headerButtonColor: rgba(40, 40, 160, 0.85);
     --headerButtonColor_HOVER: rgba(25, 25, 145, 0.65);
 
@@ -23,7 +23,7 @@
 
 /* Dark Mode Colors */
 .darkMode {
-    --headerBgColor: rgba(25, 25, 45, 0.9);
+    --headerBgColor: rgba(25, 25, 45, 1.0);
     --headerButtonColor: rgba(90, 90, 200, 0.85);
     --headerButtonColor_HOVER: rgba(90, 90, 200, 0.65);
 
@@ -52,11 +52,22 @@ header {
     font-family: "Inter";
     font-weight: bold;
     font-size: 20px;
+
+    /* Header remains there even with bottom scrolling */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    /* Header remains there even with bottom scrolling */
 }
 
 body {
+    /* Supporting the header */
     margin: 0;
     padding: 0;
+    padding-top: 60px;
+    /* Supporting the header */
+
     text-align: center;
     /* background-color: rgba(23, 23, 183, 1.0); */
     /* background-color: rgba(190,190,235,0.80); */
@@ -67,6 +78,7 @@ body {
 
 * {
     box-sizing: border-box;
+    word-wrap: break-word; /* Prevent words from escaping their boxes */
 }
 
 h1 {
