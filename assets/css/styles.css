@@ -47,8 +47,7 @@
 header {
     background-color: var(--headerBgColor);
     margin: auto auto;
-    padding: 7px 7px;
-    /* border-radius: 8px; */
+    padding: 12px 7px;
     font-family: "Inter";
     font-weight: bold;
     font-size: 20px;
@@ -71,11 +70,11 @@ header {
     background-color: var(--headerButtonColor);
     margin: auto 3px;
     padding: 8px 8px;
-    /* width: 40%; */
+    width: 40%;
     border-radius: 10px;
     display: inline-block;
 
-    min-width: 180px;
+    /* min-width: 180px; */
     /* white-space: nowrap; */
 }
 
@@ -191,6 +190,7 @@ span {
 .showHideInfo {
     display: none;
 }
+
 .showHideInfo.show {
     display: block;
 }
@@ -214,16 +214,20 @@ footer {
 @media (max-width: 600px) {
     header {
         padding: 7px 7px;
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .headerButton {
         /* padding: 8px 5px; */
-        /* width: 35%; */
-        /* display: inline-block; */
-        font-size: 12px;
-        padding: 5px 0px;
+        width: 95%;
+        display: block;
+        padding: 8px 0px;
         min-width: 140px;
+        margin: 5px auto;
+    }
+
+    body {
+        padding-top: 95px;
     }
 
     h1 {
@@ -231,7 +235,7 @@ footer {
     }
 
     .infoHeader {
-        font-size: 20px;
+        font-size: 23px;
         font-family: "Inter";
     }
 
@@ -244,7 +248,7 @@ footer {
     p {
         /* margin-left: 20px; */
         text-align: justify;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .eduInst span {
@@ -256,21 +260,25 @@ footer {
     }
 
     .eduInst {
-        font-size: 16px;
+        font-size: 19px;
     }
 
     .certificate, .sklClub {
-        font-size: 13px;
-    }
-
-    .sklClub span {
-        text-align: right;
+        font-size: 15px;
     }
 
     p span {
         float: none;
         display: block;
         text-align: left;
+    }
+
+    .eduInst span {
+        font-size: 16px;
+    }
+
+    .sklClub span {
+        text-align: right;
     }
 
     footer {
