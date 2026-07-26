@@ -160,12 +160,19 @@ p {
     text-align: justify;
 }
 
-.eduInst, span {
+.skillTitle {
+    text-align: center;
+}
+
+.eduInst, span, .skillTitle {
     font-weight: bold;
 }
 
-.eduInst, .certificate, .sklClub {
+.eduInst, .certificate, .sklClub, .skillTitle {
     font-size: 19px;
+}
+
+.eduInst, .certificate, .sklClub {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -257,10 +264,6 @@ footer {
 
     .eduInst, .certificate {
         display: block;
-    }
-
-    .eduInst {
-        font-size: 19px;
     }
 
     .certificate, .sklClub {
