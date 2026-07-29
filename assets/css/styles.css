@@ -141,6 +141,11 @@ h1 {
             text-decoration: none;
             font-family: "Source Code Pro";
             font-weight: bold;
+
+            i:hover {
+                color: var(--textColor_HOVER);
+                transform: none;
+            }
         }
     }
 
