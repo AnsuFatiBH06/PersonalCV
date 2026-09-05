@@ -175,7 +175,7 @@ a {
     background-color: var(--infoDivBoxColor);
     width: 95%;
     margin: 10px auto;
-    padding: 10px 30px;
+    padding: 0px 30px;
     border-radius: 8px;
 }
 
@@ -246,6 +246,7 @@ span {
 
 .showHideInfo.show {
     display: block;
+    padding-bottom: 15px;
 }
 
 footer {
