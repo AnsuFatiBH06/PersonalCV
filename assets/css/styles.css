@@ -133,7 +133,7 @@ h1 {
     }
 
     .headerButton {
-        width: 85%;
+        width: 97%;
         margin: 8px auto;
 
         a {
@@ -294,9 +294,9 @@ i:hover {
         margin: 5px 3px;
     }
 
-    body {
+    /* body {
         padding-top: 100px;
-    }
+    } */
 
     h1 {
         font-size: 38px;
