@@ -26,9 +26,9 @@ darkModeButton.addEventListener('click', () => {
     body.classList.toggle('darkMode');
 
     if (body.classList.contains('darkMode')) {
-        darkModeButton.textContent = 'Light Mode';
+        darkModeButton.innerHTML = 'Light Mode<i class="fa fa-sun-o buttonToggleIcon"></i>';
     } else {
-        darkModeButton.textContent = 'Dark Mode';
+        darkModeButton.innerHTML = 'Dark Mode<i class="fa fa-moon-o buttonToggleIcon"></i>';
     }
 });
 
@@ -39,10 +39,10 @@ expandCollapseButton.addEventListener('click', () => {
     allHiddenInfoBoxes.forEach(hiddenInformation => {
         if (boxIsExpanded) {
             hiddenInformation.classList.add('show');
-            expandCollapseButton.innerHTML = 'Collapse All <i class="fa fa-minus-square"></i>';
+            expandCollapseButton.innerHTML = 'Collapse All<i class="fa fa-minus-square buttonToggleIcon"></i>';
         } else {
             hiddenInformation.classList.remove('show');
-            expandCollapseButton.innerHTML = 'Expand All <i class="fa fa-plus-square"></i>';
+            expandCollapseButton.innerHTML = 'Expand All<i class="fa fa-plus-square buttonToggleIcon"></i>';
         }
     });
 
