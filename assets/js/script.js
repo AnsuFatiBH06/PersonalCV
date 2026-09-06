@@ -39,10 +39,10 @@ expandCollapseButton.addEventListener('click', () => {
     allHiddenInfoBoxes.forEach(hiddenInformation => {
         if (boxIsExpanded) {
             hiddenInformation.classList.add('show');
-            expandCollapseButton.textContent = 'Collapse All';
+            expandCollapseButton.innerHTML = 'Collapse All <i class="fa fa-minus-square"></i>';
         } else {
             hiddenInformation.classList.remove('show');
-            expandCollapseButton.textContent = 'Expand All';
+            expandCollapseButton.innerHTML = 'Expand All <i class="fa fa-plus-square"></i>';
         }
     });
 
