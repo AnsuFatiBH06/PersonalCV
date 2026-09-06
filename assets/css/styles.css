@@ -70,7 +70,7 @@ header {
     background-color: var(--headerButtonColor);
     margin: auto 3px;
     padding: 12px 8px;
-    width: 40%;
+    width: 45%;
     border-radius: 10px;
     display: inline-block;
 
@@ -287,11 +287,11 @@ i:hover {
 
     .headerButton {
         /* padding: 8px 5px; */
-        width: 95%;
-        display: block;
+        width: 45%;
+        /* display: block; */
         padding: 10px 0px;
-        min-width: 140px;
-        margin: 5px auto;
+        /* min-width: 140px; */
+        margin: 5px 3px;
     }
 
     body {
