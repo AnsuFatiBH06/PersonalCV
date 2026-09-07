@@ -19,6 +19,12 @@ const translations = {
         languagesHeader: 'Languages <span class="toggleIcon">(+)</span>',
         languagesArabic: '📜 Arabic<span>(Native)</span>',
         languagesEnglish: '📜 English<span>(IELTS UKVI 7.5)</span>',
+        skillsHeader: 'Skills <span class="toggleIcon">(+)</span>',
+        educationHeader: 'Education <span class="toggleIcon">(+)</span>',
+        workExperienceHeader: 'Work Experience <span class="toggleIcon">(+)</span>',
+        programsHeader: 'Programs <span class="toggleIcon">(+)</span>',
+        projectsHeader: 'Projects <span class="toggleIcon">(+)</span>',
+        certificationsHeader: 'Certifications <span class="toggleIcon">(+)</span>'
     }
     ,
     ar: {
@@ -32,6 +38,12 @@ const translations = {
         languagesHeader: 'اللغات <span class="toggleIcon">(+)</span>',
         languagesArabic: '📜 العربية<span>(اللغة الأم)</span>',
         languagesEnglish: '📜 الإنجليزية<span>(7.5 في امتحان الآيلتس)</span>',
+        skillsHeader: 'المهارات <span class="toggleIcon">(+)</span>',
+        educationHeader: 'التعليم <span class="toggleIcon">(+)</span>',
+        workExperienceHeader: 'الخبرة العملية <span class="toggleIcon">(+)</span>',
+        programsHeader: 'البرامج التعليمية <span class="toggleIcon">(+)</span>',
+        projectsHeader: 'المشاريع <span class="toggleIcon">(+)</span>',
+        certificationsHeader: 'الشهادات <span class="toggleIcon">(+)</span>'
     }
 };
 
