@@ -24,15 +24,16 @@
         <!-- <h1>ABDULLA ABDULRAHIM</h1> -->
         <div id="themeSwitchButton" class="headerButton">Dark Mode<i class="fa fa-moon-o buttonToggleIcon"></i></div>
         <div id="expandCollapseButton" class="headerButton">Expand All<i class="fa fa-plus-square buttonToggleIcon"></i></div>
+        <div id="languageSwitchButton" class="headerButton">Arabic<i class="fa fa-hand-o-left buttonToggleIcon"></i></div>
     </header>
     <body>
         <!-- Put my image here -->
-        <h1>ABDULLA ABDULRAHIM</h1>
+        <h1 id="nameBig">ABDULLA ABDULRAHIM</h1>
         <div id="feedbackFormSection">
-            <h3 class="nonInfoBoxH3">Your feedback on this website</h3>
-            <p>It's completely optional, however, I'd appreciate it if you take some time to share with me what can I do to improve this website!</p>
+            <h3 id ="feedbackTitle" class="nonInfoBoxH3">Your feedback on this website</h3>
+            <p id="feedbackDescription">It's completely optional, however, I'd appreciate it if you take some time to share with me what can I do to improve this website!</p>
             <div class="headerButton">
-                <a rel="noopener noreferrer" href="https://forms.gle/VQDaHxAX1HkC3hrRA" target="_blank">CLICK HERE TO SHARE<i class="fa fa-external-link-square buttonToggleIcon"></i></a>
+                <a id="feedbackLink" rel="noopener noreferrer" href="https://forms.gle/VQDaHxAX1HkC3hrRA" target="_blank">CLICK HERE TO SHARE<i class="fa fa-external-link-square buttonToggleIcon"></i></a>
             </div>
                 <!-- <iframe 
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdJRkSnd3ZrHgTdpUatUDaWtOlwJTvE2psypdwzWVh1wKIO3w/viewform?embedded=true" 
@@ -41,16 +42,16 @@
         </div>
         <div class="infoDiv">
             <div class="clickableHeader">
-                <h2 class="infoHeader">
+                <h2 id="languagesHeader" class="infoHeader">
                     Languages <span class="toggleIcon">(+)</span>
                 </h2>
             </div>
             <div class="showHideInfo">
-            <p class="sklClub">📜 Arabic
+            <p id="languagesArabic" class="sklClub">📜 Arabic
                 <span>(Native)</span>
             </p>
             <div class="border"></div>
-            <p class="sklClub">📜 English
+            <p id="languagesEnglish" class="sklClub">📜 English
                 <span>(IELTS UKVI 7.5)</span>
             </p>
             </div>
@@ -215,7 +216,8 @@
             <!-- <br /> -->
             </div>
         </div>
-        <script src="assets/js/script.js"></script>
+        <script src="assets/js/script.js" defer></script>
+        <script src="assets/js/languageSwitch.js" defer></script>
     </body>
     <!-- <footer>
         <a href="mailto:abdulrahimabdulla42@gmail.com?subject=Came%20from%20your%20website" target="_blank">

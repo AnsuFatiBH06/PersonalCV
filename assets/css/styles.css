@@ -51,6 +51,7 @@ header {
     font-family: "Inter";
     font-weight: bold;
     font-size: 20px;
+    direction: ltr;
 
     /* Header remains there even with bottom scrolling */
     position: fixed;
@@ -70,7 +71,7 @@ header {
     background-color: var(--headerButtonColor);
     margin: auto 3px;
     padding: 12px 8px;
-    width: 45%;
+    width: 30%;
     border-radius: 10px;
     display: inline-block;
 
@@ -290,17 +291,17 @@ i:hover {
 
 @media (max-width: 600px) {
     header {
-        padding: 7px 7px;
-        font-size: 16px;
+        padding: 7px 2px;
+        font-size: 13px;
     }
 
     .headerButton {
         /* padding: 8px 5px; */
-        width: 45%;
+        width: 30%;
         /* display: block; */
         padding: 10px 0px;
         /* min-width: 140px; */
-        margin: 5px 3px;
+        margin: 5px 0px;
     }
 
     /* body {
