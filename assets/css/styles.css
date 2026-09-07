@@ -292,16 +292,16 @@ i:hover {
 @media (max-width: 600px) {
     header {
         padding: 7px 2px;
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .headerButton {
         /* padding: 8px 5px; */
-        width: 30%;
+        width: 25%;
         /* display: block; */
         padding: 10px 0px;
         /* min-width: 140px; */
-        margin: 5px 0px;
+        margin: 5px 2px;
     }
 
     /* body {
