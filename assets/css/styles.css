@@ -292,6 +292,14 @@ i:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.25);
 } */
 
+.skillsListing {
+    p {
+        display: inline-block;
+        margin: 5px auto;
+    }
+    margin-bottom: 20px;
+}
+
 @media (max-width: 600px) {
     header {
         padding: 7px 10px;
