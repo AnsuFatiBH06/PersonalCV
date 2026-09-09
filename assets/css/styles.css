@@ -156,6 +156,8 @@ h1 {
         a {
             color: var(--textColor_HOVER);
         }
+
+        transform: scale(1.03);
     }
 
     /* iframe {
@@ -326,16 +328,16 @@ i:hover {
     } */
 
     h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .infoHeader {
-        font-size: 23px;
+        font-size: 20px;
         font-family: "Inter";
     }
 
     .infoDiv {
-        margin: 8px auto;
+        margin: 4px auto;
         padding: 0px 25px;
     }
 
