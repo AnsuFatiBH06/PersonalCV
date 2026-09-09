@@ -296,6 +296,7 @@ i:hover {
     p {
         display: inline-block;
         margin: 5px auto;
+        text-align: center;
     }
     margin-bottom: 20px;
 }
