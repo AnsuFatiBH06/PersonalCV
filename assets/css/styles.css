@@ -341,10 +341,14 @@ i:hover {
         padding: 0px 25px;
     }
 
+    .skillTitle {
+        font-size: 18px;
+    }
+
     p {
         /* margin-left: 20px; */
         text-align: justify;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .eduInst span {
