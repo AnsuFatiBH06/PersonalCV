@@ -131,10 +131,12 @@ h1 {
     
     p {
         color: var(--myNameColor);
+        font-family: "Inter";
+        font-weight: 550;
     }
 
     .headerButton {
-        width: 97%;
+        width: 98%;
         margin: 8px auto;
 
         a {
@@ -315,7 +317,7 @@ i:hover {
     } */
 
     h1 {
-        font-size: 38px;
+        font-size: 35px;
     }
 
     .infoHeader {
@@ -358,6 +360,10 @@ i:hover {
 
     .sklClub span {
         text-align: right;
+    }
+
+    .nonInfoBoxH3 {
+        font-size: 19px;
     }
 
     footer {
