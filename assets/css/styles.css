@@ -322,6 +322,28 @@ html[lang="ar"] h1 {
     font-size: 52px;
 }
 
+html[lang="ar"] footer {
+    font-family: "Inter";
+}
+
+html[lang="ar"] .nonInfoBoxH3 {
+    font-size: 28px;
+}
+
+html[lang="ar"] #feedbackFormSection {
+    p, .headerButton a {
+        font-size: 23px;
+    }
+
+    .headerButton {
+        a {
+            i {
+                margin: auto 8px;
+            }
+        }
+    }
+}
+
 /* html[lang="ar"] footer {
     padding: 0 0;
     .socialIcons {
@@ -367,7 +389,7 @@ html[lang="ar"] h1 {
     }
 
     .infoDiv {
-        margin: 4px auto;
+        margin: 5px auto;
         padding: 0px 25px;
     }
 
@@ -425,6 +447,16 @@ html[lang="ar"] h1 {
 
     html[lang="ar"] h1 {
         font-size: 38px;
+    }
+
+    html[lang="ar"] .nonInfoBoxH3 {
+        font-size: 24px;
+    }
+
+    html[lang="ar"] #feedbackFormSection {
+        p, .headerButton a {
+            font-size: 19px;
+        }
     }
 
     /* ARABIC SPECIFIED STYLING */
