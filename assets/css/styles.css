@@ -303,6 +303,29 @@ i:hover {
     margin-bottom: 20px;
 }
 
+
+/* ARABIC SPECIFIED STYLING */
+/* ARABIC SPECIFIED STYLING */
+
+html[lang="ar"] .eduInst,
+html[lang="ar"] .eduInst span,
+html[lang="ar"] .certificateYear,
+html[lang="ar"] .certificate {
+    text-align: right;
+}
+
+html[lang="ar"] body {
+    font-family: "Noto Naskh Arabic";
+}
+
+html[lang="ar"] h1 {
+    font-size: 52px;
+}
+
+/* ARABIC SPECIFIED STYLING */
+/* ARABIC SPECIFIED STYLING */
+
+
 @media (max-width: 600px) {
     header {
         padding: 7px 10px;
@@ -389,4 +412,14 @@ i:hover {
         font-size: 60px;
         margin: 0;
     }
+
+    /* ARABIC SPECIFIED STYLING */
+    /* ARABIC SPECIFIED STYLING */
+
+    html[lang="ar"] h1 {
+        font-size: 38px;
+    }
+
+    /* ARABIC SPECIFIED STYLING */
+    /* ARABIC SPECIFIED STYLING */
 }
